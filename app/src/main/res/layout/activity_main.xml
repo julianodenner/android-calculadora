@@ -1,0 +1,208 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/tema"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:weightSum="1">
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+
+        <TextView
+            android:id="@+id/visor"
+            style="@style/visor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="4"
+            android:gravity="center" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.14">
+
+        <Button
+            android:id="@+id/limpar"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonLimpar"
+            android:text="c"
+            />
+
+        <Button
+            android:id="@+id/desfazer"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonDesfazer"
+            android:text="←" />
+
+        <Button
+            android:id="@+id/porcentagem"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonPorcentagem"
+            android:text="%" />
+
+        <Button
+            android:id="@+id/soma"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonSoma"
+            android:text="+" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.14">
+
+        <Button
+            android:id="@+id/um"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonUm"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/dois"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonDois"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/tres"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonTres"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/mais"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonSubtrai"
+            android:text="-" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.14">
+
+        <Button
+            android:id="@+id/quatro"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonQuatro"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/cinco"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonCinco"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/seis"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonSeis"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/multiplicacao"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonMultiplica"
+            android:text="×" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.14">
+
+        <Button
+            android:id="@+id/sete"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonSete"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/oito"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonOito"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/nove"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonNove"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/dividir"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonDivide"
+            android:text="÷" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.15">
+
+        <Button
+            android:id="@+id/zero"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="2"
+            android:onClick="handleButtonZero"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/virgula"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonVirgula"
+            android:text="," />
+
+        <Button
+            android:id="@+id/resultado"
+            style="@style/botao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="handleButtonResultado"
+            android:text="=" />
+    </TableRow>
+</TableLayout>

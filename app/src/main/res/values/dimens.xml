@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="default_margin">2dp</dimen>
+    <dimen name="default_margin_duo">4dp</dimen>
+</resources>
