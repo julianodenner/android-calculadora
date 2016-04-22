@@ -41,13 +41,13 @@
         android:layout_weight="0.14"
         android:orientation="horizontal">
 
-        <ImageButton
+        <Button
             style="@style/botao"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:onClick="handleButtonLimpar"
-            android:src="@drawable/ic_clear_all" />
+            android:text="C" />
 
         <ImageButton
             style="@style/botao"
@@ -55,7 +55,10 @@
             android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:onClick="handleButtonDesfazer"
-            android:src="@drawable/ic_clear" />
+            android:src="@drawable/delete"
+            android:adjustViewBounds="true"
+            android:padding="24dp"
+            android:scaleType="fitCenter" />
 
         <Button
             style="@style/botao"
