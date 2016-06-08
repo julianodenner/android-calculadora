@@ -9,3 +9,6 @@
     <li>Windows 7 Professional sp1</li>
   </ul>
 </p>
+<p>Pré-visualização:</p>
+<img src="http://jdenner.com/resources/android-calculadora.png" alt="Calculadora executando">
+
