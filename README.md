@@ -10,5 +10,5 @@
   </ul>
 </p>
 <p>Pré-visualização:</p>
-<img src="http://jdenner.com/resources/android-calculadora.png" alt="Calculadora executando">
+<img src="http://jdenner.com/resources/android-calculadora.png" alt="Pré-visualização calculadora">
 
