@@ -12,3 +12,4 @@
 <p>Pré-visualização:</p>
 <img src="http://jdenner.com/resources/android-calculadora.png" alt="Pré-visualização calculadora">
 
+[![Analytics](https://ga-beacon.appspot.com/UA-96469410-1/welcome-page)](https://github.com/igrigorik/ga-beacon)
