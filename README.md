@@ -10,4 +10,4 @@
   </ul>
 </p>
 <p>Pré-visualização:</p>
-<img src="http://jdenner.com/resources/android-calculadora.png" alt="Pré-visualização calculadora">
+<img src="http://jdenner.com/github/android-calculadora.png" alt="Pré-visualização calculadora">
